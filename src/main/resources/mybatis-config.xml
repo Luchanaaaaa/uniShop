@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- config mybatis settings -->
+    <settings>
+        <!-- use jdbc's getGeneratedKeys to get database's auto-generated id -->
+        <setting name="useGeneratedKeys" value="true" />
+
+        <!-- use columnLabel to ensure case insensitive -->
+        <setting name="useColumnLabel" value="true" />
+
+        <!-- turn on auto-mapping -->
+        <setting name="mapUnderscoreToCamelCase" value="true" />
+    </settings>
+<!--    <plugins>-->
+<!--        <plugin interceptor="com.imooc.o2o.dao.split.DynamicDataSourceInterceptor">-->
+<!--        </plugin>-->
+<!--    </plugins>-->
+</configuration>
